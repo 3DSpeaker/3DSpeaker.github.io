@@ -567,6 +567,49 @@
         </div>
     </section>
 
+    <section class="featured-courses vertical-column courses-wrap" id="Download">
+        <div class="container">
+            <div class="row mx-m-25">
+                <div class="col-12 px-25">
+                    <header class="heading flex flex-wrap justify-content-between align-items-center">
+                        <h2 class="entry-title">FAQ</h2>
+                    </header><!-- .heading -->
+
+                    <p></p>
+                    <p class="lead font-weight-normal">
+                        We'll now clarify common questions about our dataset for you:
+                    </p>
+                    <p></p>
+
+                    <p></p>
+                    <p class="lead font-weight-bolder">
+                        <b>Question 1: </b> The dataset is too large and we often experience interruptions during download. How can this be resolved?
+                    </p>
+                    <p class="lead font-weight-normal">
+                        <b>Answer: </b> We have split the data into several sub-files. 
+                        You can download each sub-file separately and then merge them. 
+                        Please verify the integrity of the files using the provided MD5 checksums. 
+                        For specific filenames and download links, please refer to  
+                        <a href="https://github.com/alibaba-damo-academy/3D-Speaker/blob/main/egs/3dspeaker/sv-ecapa/local/download_data.sh#L45" class="text-info">our code</a>.
+                    </p>
+                    <p></p>
+
+                    <p></p>
+                    <p class="lead font-weight-bolder">
+                        <b>Question 2: </b> It seems that some audio files in the dataset do not have transcripts provided?
+                    </p>
+                    <p class="lead font-weight-normal">
+                        <b>Answer: </b> Please note that each audio segments are recorded simultaneously by multiple devices, so the text annotations are identical across devices. 
+                        For each utterance we provided text annotations on one of the devices. You can re-link text annotations to all audio segments using device ID and utterance ID. 
+                        Please also note that text annotations are provided only on Mandarin Chinese utterances.
+                    </p>
+                    <p></p>
+
+                </div><!-- .col -->
+            </div>
+        </div>
+    </section>
+
     <footer class="site-footer">
         <div class="footer-bar">
             <div class="container">
